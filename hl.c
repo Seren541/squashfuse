@@ -288,7 +288,7 @@ static sqfs_hl *sqfs_hl_open(const char *path, size_t offset) {
 	return NULL;
 }
 
-int main(int argc, char *argv[]) {
+int input_squashfuse(int argc, char *argv[]) {
 	struct fuse_args args;
 	sqfs_opts opts;
 	sqfs_hl *hl;

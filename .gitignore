@@ -29,3 +29,7 @@ win/Release
 *.opensdf
 *.suo
 *.vcxproj.user
+
+tests/lib.sh
+tests/ll-smoke.sh
+features
